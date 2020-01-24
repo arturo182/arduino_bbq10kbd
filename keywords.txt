@@ -1,0 +1,37 @@
+#######################################
+# Syntax Coloring Map For Ultrasound
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BBQ10Keyboard	KEYWORD1
+KeyEvent	KEYWORD1
+KeyState	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin			KEYWORD2
+reset			KEYWORD2
+attachInterrupt	KEYWORD2
+detachInterrupt	KEYWORD2
+clearInterruptStatus	KEYWORD2
+status			KEYWORD2
+keyCount		KEYWORD2
+keyEvent		KEYWORD2
+backlight		KEYWORD2
+setBacklight		KEYWORD2
+readRegister8		KEYWORD2
+readRegister16		KEYWORD2
+writeRegister		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+StateIdle	LITERAL1
+StatePress	LITERAL1
+StateLongPress	LITERAL1
+StateRelease	LITERAL1
