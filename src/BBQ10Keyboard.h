@@ -36,9 +36,18 @@ class BBQ10Keyboard
         float backlight() const;
         void setBacklight(float value);
 
+        float backlight2() const;
+        void setBacklight2(float value);
+
+        void pinMode(uint8_t pin, uint8_t mode);
+        void digitalWrite(uint8_t pin, uint8_t val);
+        int digitalRead(uint8_t pin);
+
         uint8_t readRegister8(uint8_t reg) const;
         uint16_t readRegister16(uint8_t reg) const;
+        uint8_t readRegisterBit(uint8_t reg, uint8_t bit);
         void writeRegister(uint8_t reg, uint8_t value);
+        void updateRegisterBit(uint8_t reg, uint8_t bit, uint8_t value);
 
     private:
         TwoWire *m_wire;
